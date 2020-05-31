@@ -1,0 +1,17 @@
+/* Base Element Styles */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.main-header {
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+.fa-1x {
+  font-size: 1.5rem;
+  }
+  .navbar-toggler.toggler-example {
+  cursor: pointer;
+  }
+  .dark-pink-text {
+    color: #AC003A;

@@ -1,0 +1,16 @@
+/* Flexboxes & Media Queries */
+
+@Media (min-width: 769px) {
+
+    .main-header,
+    .main-nav {
+        display: flex;
+    } 
+    .main-header {
+        flex-direction: column;
+    }
+}
+@Media (max-width: 1025px) {
+    flex-direction: row;
+    justify-content: space-between;
+}
